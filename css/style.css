@@ -1,8 +1,11 @@
 body {
   font-family: sans-serif;
   margin: 0 50px;
-  background-color: #e5e5e5;
-  overflow: hidden;
+  background-image: url('/img/90064.jpg');
+	background-repeat: no-repeat;
+  background-size: cover;
+  
+  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,27 +13,33 @@ body {
 }
 
 .app {
-  background-color: #fff;
+  background-color: rgb(189, 226, 158);;
   width: 300px;
   height: 500px;
-  border: 5px solid #abcea1;
-  border-radius: 8px;
+  text-align: center;
   padding: 15px;
+  border-radius: 0.5em;
+  border: 1px solid rgb(77, 72, 71);
+  
+}
+#newDiv{
+  
+  width: 100%;
+  height: 300px;
   overflow-y: scroll;
 }
-
-.app::-webkit-scrollbar {
+#newDiv::-webkit-scrollbar {
   width: 0 !important;
 }
-#searchInput{
-  width: 100%;
+h4{
+  text-align: center;
 }
 
 #addNew {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgba(141, 167, 134, 0.35);
+  background-color: #fff;
   padding: 5px 10px;
   border-radius: 5px;
   cursor: pointer;
@@ -69,4 +78,10 @@ body {
 
 #msg {
   color: red;
+}
+
+.signout{
+    background-color: #de3f53;
+    border-radius: 50%;
+    
 }

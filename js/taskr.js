@@ -92,3 +92,10 @@ let resetForm = () => {
   console.log(data);
   createTasks();
 })();
+function signout(e) {
+  let yes = confirm("Are you sure you want to sign out");
+  if(yes){
+    location.href = "/login.html";
+  }
+  
+}
